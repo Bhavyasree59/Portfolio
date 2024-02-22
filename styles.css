@@ -6,7 +6,7 @@ body{
     background-color:white;
     width:1000px;
     height:600px;
-    margin:75px 200px 100px 200px;
+    margin:75px 200px 75px 200px;
     border-radius:15px;
     
     
@@ -130,7 +130,6 @@ body{
 }
 @media (max-width: 768px) {
     .nav-bar {
-        flex-direction: column;
         text-align: center;
     }
 
@@ -143,24 +142,20 @@ body{
         border-bottom: 1.5px solid rgb(229, 225, 225);
     }
 
-    .inner {
-        flex-direction: column;
-    }
-
     .inner-div, .inner-div2 {
-        width: 50px;
+        width: 100%;
     }
 
     .button {
         margin-top: 20px;
-        width: 100%;
+        
     }
 
     .media {
         margin-top: 20px;
-        justify-content: center;
+        
     }
-     .inner-div2 {
+    .inner-div2 {
         width: 100%;
         margin-top: 20px;
         padding: 0 10px; /* Adjust padding for smaller screens */
