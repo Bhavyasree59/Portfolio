@@ -148,7 +148,7 @@ body{
     }
 
     .inner-div, .inner-div2 {
-        width: 100%;
+        width: 50px;
     }
 
     .button {
