@@ -160,5 +160,11 @@ body{
         margin-top: 20px;
         justify-content: center;
     }
+     .inner-div2 {
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 10px; /* Adjust padding for smaller screens */
+        box-sizing: border-box; /* Ensure padding doesn't affect total width */
+    }
 }
 
