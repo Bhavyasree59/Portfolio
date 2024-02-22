@@ -134,7 +134,7 @@ body{
         text-align: center;
     }
 
-    .name, .heading, .home, .about, .skills, .contact {
+     .heading, .home, .about, .skills, .contact {
         width: 100%;
     }
 
