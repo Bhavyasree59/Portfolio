@@ -12,6 +12,7 @@ body{
     
     border-radius:15px;
     
+    
 }
 .nav-bar{
     height:60px;
@@ -131,6 +132,11 @@ body{
     color:transparent;
 }
 @media (max-width: 768px) {
+    .div{
+        margin: 50px 50px 50px 50px;
+    
+        
+    }
     .nav-bar {
         text-align: center;
     }
