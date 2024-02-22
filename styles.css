@@ -128,4 +128,37 @@ body{
     cursor: pointer;
     color:transparent;
 }
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .name, .heading, .home, .about, .skills, .contact {
+        width: 100%;
+    }
+
+    .heading {
+        border-right: none;
+        border-bottom: 1.5px solid rgb(229, 225, 225);
+    }
+
+    .inner {
+        flex-direction: column;
+    }
+
+    .inner-div, .inner-div2 {
+        width: 100%;
+    }
+
+    .button {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .media {
+        margin-top: 20px;
+        justify-content: center;
+    }
+}
 
